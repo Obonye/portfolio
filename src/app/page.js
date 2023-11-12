@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 import {Divider} from "@nextui-org/react";
 
 import { AiFillGithub,AiFillLinkedin } from "react-icons/ai";

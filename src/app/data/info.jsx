@@ -1,4 +1,4 @@
-import { AiFillGithub,AiFillHtml5,BsCodeSlash,BiLogoFlutter,BiLogoJava,TbSql,BsGit,BiLogoAws } from "react-icons/ai";
+
 
 export const info = {
     baseUrl: "https://astro-portfolio-uzair.vercel.app",
@@ -86,27 +86,26 @@ export const info = {
     skills:[
         {
             title:'Web Development',
-            avatar:AiFillHtml5
+            
         },
         {
             title:'Flutter',
-            avatar:BiLogoFlutter
+        
         },
         {
-            title:'Java',
-            avatar:BiLogoJava
+            title:'Java'
         },
         {
             title:'SQL',
-            avatar:TbSql
+        
         },
         {
             title:'Git',
-            avatar:BsGit
+
         },
         {
             title:'AWS',
-            avatar:BiLogoAws
+    
         }
 
 

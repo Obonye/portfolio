@@ -10,7 +10,7 @@ import Education from "./components/education";
 
 export default function Home() {
   return (
-    <main className="bg-black px-10">
+    <main className="bg-blackgit px-10">
       <section className="min-h-screen">
         <nav className="py-10 mb-12 flex justify-between">
           <h1 className="text-xl font-burtons">OG.</h1>

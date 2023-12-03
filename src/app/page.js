@@ -1,8 +1,11 @@
 import Image from "next/legacy/image";
 import {Divider} from "@nextui-org/react";
 
+
 import { AiFillGithub,AiFillLinkedin } from "react-icons/ai";
+import { CiMenuFries } from "react-icons/ci";
 import obonye from "../../public/IMG_2345.PNG";
+import NavMenu from "./components/footer"
 import Experience from "./components/experience";
 import Certifications from "./components/certifications";
 import Skills from "./components/skills";
@@ -12,18 +15,26 @@ export default function Home() {
   return (
     <main className="bg-blackgit px-10">
       <section className="min-h-screen">
-        <nav className="py-10 mb-12 flex justify-between">
+        <nav className="py-10 mb-12 flex justify-between align-center">
+          
           <h1 className="text-xl font-burtons">OG.</h1>
-          <ul>
+          <ul className="justify-around hidden md:flex">
+            <li className="px-10"><a href="#skills">Skills</a></li>
+            <li className="px-10"><a href="#experience">Experience</a></li>
+            <li className="px-10"><a href="#education">Education</a></li>
+            <li className="px-10"><a href="#certifications">Certifications</a></li>
+          </ul>
+          <ul className="flex">
+          
             <li className="text-xl text-center">
               <a
                 className="bg-gradient-to-r from-green-500 to-teal-700 px-4 py-2 rounded-md ml-8"
-                href="#"
+                href="#footer"
               >
-                Resume
+                Contacts
               </a>
             </li>
-            <li></li>
+          
           </ul>
         </nav>
         <div className=" text-center py-10 flex flex-col ">
@@ -51,6 +62,7 @@ export default function Home() {
       <Experience/>
       <Education/>
       <Certifications></Certifications>
+      <NavMenu/>
     </main>
   );
 }

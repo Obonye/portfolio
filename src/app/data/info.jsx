@@ -72,7 +72,15 @@ export const info = {
         endDate: "December 2023",
         description: ["Amazon Web Services associate level certificate"],
   
+      },
+      {
+        name:"Cisco Network Academy Python Essentials 1",
+        location:"Gaborone, Botswana",
+        startDate:"Issued",
+        endDate: "July 2022",
+        description:["Python Essentials Certificate"]
       }
+
     ],
   
     socialMedia: {
@@ -106,6 +114,9 @@ export const info = {
         {
             title:'AWS',
     
+        },
+        {
+          title:"Python"
         }
 
 

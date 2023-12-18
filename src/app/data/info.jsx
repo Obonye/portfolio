@@ -88,7 +88,7 @@ export const info = {
       twitter: "",
       github: "https://github.com/Obonye",
       email: "obonyeg13@gmail.com",
-      linkedin: "",
+      linkedin: "www.linkedin.com/in/obonye-galekhutle-11177b21a",
     },
 
     skills:[
